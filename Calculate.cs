@@ -1,7 +1,14 @@
 using System;
 namespace Calculator.App
 {
-    public class Calculate
+    interface ICalculator
+    {
+        int Add(int a, int b);
+        int Subtract(int a, int b);
+        int Multiply(int a, int b);
+        int Divide(int a, int b);
+    }
+    public class Calculate : ICalculator
     {
         public int Add(int num1, int num2)
         {
