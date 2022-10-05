@@ -1,1 +1,1 @@
-# Initial-Training
+# Initial Training - Calculator App
