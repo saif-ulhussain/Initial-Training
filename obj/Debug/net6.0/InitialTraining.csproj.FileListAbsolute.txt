@@ -1,0 +1,15 @@
+/Users/saif-ul.hussain/Documents/Projects/InitialTraining/bin/Debug/net6.0/InitialTraining
+/Users/saif-ul.hussain/Documents/Projects/InitialTraining/bin/Debug/net6.0/InitialTraining.deps.json
+/Users/saif-ul.hussain/Documents/Projects/InitialTraining/bin/Debug/net6.0/InitialTraining.runtimeconfig.json
+/Users/saif-ul.hussain/Documents/Projects/InitialTraining/bin/Debug/net6.0/InitialTraining.dll
+/Users/saif-ul.hussain/Documents/Projects/InitialTraining/bin/Debug/net6.0/InitialTraining.pdb
+/Users/saif-ul.hussain/Documents/Projects/InitialTraining/obj/Debug/net6.0/InitialTraining.csproj.AssemblyReference.cache
+/Users/saif-ul.hussain/Documents/Projects/InitialTraining/obj/Debug/net6.0/InitialTraining.GeneratedMSBuildEditorConfig.editorconfig
+/Users/saif-ul.hussain/Documents/Projects/InitialTraining/obj/Debug/net6.0/InitialTraining.AssemblyInfoInputs.cache
+/Users/saif-ul.hussain/Documents/Projects/InitialTraining/obj/Debug/net6.0/InitialTraining.AssemblyInfo.cs
+/Users/saif-ul.hussain/Documents/Projects/InitialTraining/obj/Debug/net6.0/InitialTraining.csproj.CoreCompileInputs.cache
+/Users/saif-ul.hussain/Documents/Projects/InitialTraining/obj/Debug/net6.0/InitialTraining.dll
+/Users/saif-ul.hussain/Documents/Projects/InitialTraining/obj/Debug/net6.0/refint/InitialTraining.dll
+/Users/saif-ul.hussain/Documents/Projects/InitialTraining/obj/Debug/net6.0/InitialTraining.pdb
+/Users/saif-ul.hussain/Documents/Projects/InitialTraining/obj/Debug/net6.0/InitialTraining.genruntimeconfig.cache
+/Users/saif-ul.hussain/Documents/Projects/InitialTraining/obj/Debug/net6.0/ref/InitialTraining.dll
