@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/saif-ul.hussain/Documents/Projects/InitialTraining/InitialTraining.csproj": {}
+    "/Users/saif-ul.hussain/Projects/Initial-Training/InitialTraining.csproj": {}
   },
   "projects": {
-    "/Users/saif-ul.hussain/Documents/Projects/InitialTraining/InitialTraining.csproj": {
+    "/Users/saif-ul.hussain/Projects/Initial-Training/InitialTraining.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/saif-ul.hussain/Documents/Projects/InitialTraining/InitialTraining.csproj",
+        "projectUniqueName": "/Users/saif-ul.hussain/Projects/Initial-Training/InitialTraining.csproj",
         "projectName": "InitialTraining",
-        "projectPath": "/Users/saif-ul.hussain/Documents/Projects/InitialTraining/InitialTraining.csproj",
+        "projectPath": "/Users/saif-ul.hussain/Projects/Initial-Training/InitialTraining.csproj",
         "packagesPath": "/Users/saif-ul.hussain/.nuget/packages/",
-        "outputPath": "/Users/saif-ul.hussain/Documents/Projects/InitialTraining/obj/",
+        "outputPath": "/Users/saif-ul.hussain/Projects/Initial-Training/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/saif-ul.hussain/.nuget/NuGet/NuGet.Config"

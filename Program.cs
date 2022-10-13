@@ -1,4 +1,5 @@
 ﻿using System.Linq.Expressions;
+using System.Linq;
 using Calculator.App;
 namespace InitialTraining.Calculator.App
 {
@@ -6,18 +7,23 @@ namespace InitialTraining.Calculator.App
     {
         static void Main(string[] args)
         {
+            string[] ValidOperators = { "add", "subtract", "multiply", "divide" };
             Console.WriteLine("Please enter operation followed by two numbers.");
 
             string[] response = Console.ReadLine().Split(" ");
 
-            string operation = response[0];
-            int num1 = Int32.Parse(response[1]);
-            int num2 = Int32.Parse(response[2]);
+            int num1;
+            int num2;
 
+            if (!int.TryParse(response[1], out num1) || !int.TryParse(response[2], out num2) || !ValidOperators.Contains(response[0]))
+            {
+                Console.WriteLine("Invalid entry.");
+                return;
+            }
 
             Calculate calculate = new Calculate();
 
-            switch (operation)
+            switch (response[0])
             {
                 case "add":
                     Console.WriteLine(calculate.Add(num1, num2));
@@ -29,7 +35,12 @@ namespace InitialTraining.Calculator.App
                     Console.WriteLine(calculate.Multiply(num1, num2));
                     break;
                 case "divide":
-                    Console.WriteLine(calculate.Divide(num1, num2));
+                    if (num1 != 0 && num2 != 0)
+                    {
+                        Console.WriteLine(calculate.Divide(num1, num2));
+                        break;
+                    }
+                    Console.WriteLine("Please enter a number greater than zero.");
                     break;
             }
         }
